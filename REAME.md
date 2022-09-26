@@ -6,10 +6,16 @@
 
 ## Table of Content 
 
-- [Installation](#underline)
-- [](#)
-- [](#)
-- [](#)
+- [Installation](#Installation)
+- [DataConfiguration (images, labels)](#DataConfiguration)
+- [Training Guide](#TrainingGuide)
+- [Inference Guide](#InferenceGuide)
+- []
 
 # Installation
-## 
+
+# Data Configuration (images, labels) 
+
+# Training Guide
+
+# Inference Guide
