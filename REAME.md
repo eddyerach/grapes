@@ -1,13 +1,13 @@
-# Bunch detector
+# Bunch Detector
 
-# Detector and berry counting
+# Detector and Berry Counting
 
 # Bunch Count (Tracker on detector)
 
 ## Table of Content 
 
 - [Installation](#Installation)
-- [DataConfiguration (images, labels)](#DataConfiguration)
+- [Data Configuration (images, labels)](#DataConfiguration)
 - [Training Guide](#TrainingGuide)
 - [Inference Guide](#InferenceGuide)
 - [Result](#Result)
@@ -26,14 +26,6 @@ sudo docker pull eddyerach1/detectron2_banano_uvas:latest
 
 ```
 sudo docker run --gpus all -it -v /home/grapes:/shared  --name detectron2_grapes
-```
-### Specific to our CPU
-```
-sudo docker pull eddyerach1/detectron2_banano_uvas:latest
-```
-
-```
-sudo docker run --gpus all -it -v /home/banano:/shared --name detectron2_grapes eddyerach1/detectron2_banano_uvas:latest
 ```
 # Data Configuration (images, labels) 
 
