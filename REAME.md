@@ -7,11 +7,11 @@
 ## Table of Content 
 
 - [Installation](#Installation)
-- [DataConfiguration (images, labels)](#Data Configuration)
-- [Training Guide](#Training Guide)
-- [Inference Guide](#Inference Guide)
+- [DataConfiguration (images, labels)](#DataConfiguration)
+- [Training Guide](#TrainingGuide)
+- [Inference Guide](#InferenceGuide)
 - [Result](#Result)
-- [Metric Table](#Metric Table)
+- [Metric Table](#MetricTable)
 
 # Installation
 
