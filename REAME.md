@@ -70,6 +70,7 @@ For training the model we use 9 datasets (see the table *[1](https://drive.googl
 | Dataset 9 (Train & Val)  | 30  |  217 |
 
 In addition, it is important to mention that when exporting the .json file with the labeled images a processing of the labels must be performed with the following script, where it takes as input the .json file, the source (images) and the folder where the files will be saved. 
+
 # Training Guide
 
 # Inference Guide
