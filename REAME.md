@@ -10,22 +10,24 @@ Detectron2 was built by Facebook AI Research (FAIR) which provides state-of-the-
 # Bunch Model in Detectron2 
 
 ### Requirements
-#### Training Dataset
-281 bunch images labeled for training corresponding to the 9 datasets found.
+### Training Dataset
+301 bunch images labeled for training corresponding to the 9 datasets found.
 ### Validation Dataset
-65 images for validation corresponding to the 9 datasets found.
+68 images for validation corresponding to the 9 datasets found.
+
 ### Hyperparameter
 - Learning rate: 0.001
 - 2000 iterations
-- 281 imgs with 1360 labeled clusters
-- Threshold 0.5
+- 301 imgs with 2593 labeled clusters
+- Inference threshold 0.5
 - Training time 27 minutes
 
 
-
-# Detector and Berry Counting
-
 # Bunch Count (Tracker on detector)
+
+Since a new detector was developed, a new bunch counting algorithm had to be developed as well. For bunch counting, Tracker DeepSort was used as it is compatible with Detectron2 *[link](https://github.com/sayef/detectron2-deepsort-pytorch)*. The tracking algorithm, allows to track an object in a sequence of frames (video), assigning it a unique identifier.
+
+# Berry Model in Detectron2
 
 # Table of Content 
 
@@ -54,7 +56,7 @@ sudo docker run --gpus all -it -v /home/grapes:/shared  --name detectron2_grape
 ```
 # Data Configuration (images, labels)  
 ### Dataset for training model
-For training the model we use 9 datasets (see the table). Images were labeled with **VGG Imagen Annotator software**  and using the polygon tool. This tool is important because it generate 3 points which allows us to draw through the image contour. 
+For training the model we use 9 datasets (see the table *[1](https://drive.google.com/drive/folders/1BJkxu0ZkTGP42Y71ELhT6vvvcNWSOSbG)* ). Images were labeled with **VGG Imagen Annotator software**  and using the polygon tool. This tool is important because it generate 3 points which allows us to draw through the image contour. 
 |Dataset|Images with label |Total labels|
 |-------|------------------|------------|
 | Dataset 1 (Train & Val)  | 72  |  747 | 
